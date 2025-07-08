@@ -1,17 +1,19 @@
 import { Text, View } from "react-native";
-import Chart from "./chart";
 
-export default function Index() {
+export default function Chart() {
+
+
   return (
     <View
       style={{
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
+        backgroundColor: "lightgrey",
+        width: "100%"
       }}
     >
-      <Text>SciChart Example</Text>
-      <Chart />
+      <Text>Chart Component</Text>
     </View>
   );
 }
